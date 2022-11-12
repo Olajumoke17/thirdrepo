@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+* {
+    font-family: 'Alata', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --Soft-orange: hsl(35,77%,62%);
+    --Soft-red:hsl(5,85%,63%);
+    --Off-white: hsl(36,100%,99%);
+    --Grayfish-blue: hsl(223,8%,79%);
+    --Dark-grayishblue: hsl(236,13%,42%);
+    --Very-darkblue: hsl(240,100%,5%);
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+p {
+    font-size: 15px;
+    color: var(--Dark-grayishblue);
+}
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 100px;
+}
+.link-items a{
+    margin: 0 10px;
+    color: var(--Dark-grayishblue)
+}
+.hero-content{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.picture-container{
+    width: 630px;
+}
+.picture-container img{
+    width: 100%;
+    height: auto;
+}
+.text-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.text-info h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text-info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+.text-info div button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--Soft-red);
+    border: none;
+    color:var(--Off-white);
+    text-transform:uppercase;
+}
+
+
+.text-box{
+    width: 300px;
+    padding: 20px;
+    background-color: var(--Very-darkblue);
+}
+.text-box h1{
+    color: var(--Soft-orange);
+    margin-bottom: 10px;
+}
+.text-box div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+.text-box div  h4 {
+    color: var(--Off-white)
+}
+hr {
+    color: var(--Dark-grayishblue);
+    border:0.2px solid;
+}
+
+.card-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    
+}
+.inner-card{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+.inner-card img {
+    height: 130px;
+}
+.inner-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
